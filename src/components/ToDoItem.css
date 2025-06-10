@@ -1,0 +1,97 @@
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(74, 72, 7, 0.15);
+  padding: 12px;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  color: rgb(11, 7, 7);
+  transition: 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.todo-item.completed {
+  background-color: #28a745; 
+  color: white;
+}
+
+.todo-item:hover {
+  transform: scale(1.02);
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.todo-item input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+}
+
+.todo-item span {
+  flex: 1;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.todo-item .status {
+  font-weight: bold;
+  margin-left: 10px;
+  color: #eaffea;
+}
+
+.actions button {
+  margin-left: 10px;
+  background: white;
+  color: #007bff;
+  border: none;
+  padding: 6px 12px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.actions button:hover {
+  background: #f0f0f0;
+}
+.todo-item {
+  transition: all 0.4s ease;
+}
+
+.todo-item.completed {
+  background-color: #28a745;
+  transform: scale(1.01);
+}
+
+.check-icon {
+  margin-left: 8px;
+  color: white;
+  vertical-align: middle;
+}
+
+#delete-button{
+    color:red;
+    background-color: white;
+}
+
+#edit-button{
+    color:#0b1293;
+    background-color: white;
+}
+
+.status-dropdown {
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-weight: 500;
+  border: 1px solid #ccc;
+  background: #fff;
+  color: #333;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.status-dropdown:focus {
+  outline: none;
+  border-color: #007bff;
+}

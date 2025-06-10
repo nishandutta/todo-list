@@ -1,0 +1,49 @@
+.app {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.2); 
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  color: white;
+}
+
+
+.input-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input-section input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+}
+
+.input-section button {
+  padding: 10px 15px;
+  background: white;
+  color: #007bff;
+  font-weight: bold;
+  border-radius: 8px;
+  border: 2px solid #007bff;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.input-section button:hover {
+  background: #e0e0e0;
+}
+
+input[type="text"] {
+  border: 2px solid black;
+  border-radius: 6px;
+  padding: 8px;
+  outline: none;
+}
