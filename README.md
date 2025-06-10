@@ -51,14 +51,18 @@ todo-list/
 ├── package.json
 ├── vite.config.js
 └── README.md
-
+```
 Clone the repository:
+````
 git clone https://github.com/nishandutta/todo-list.git
 cd todo-list
-
+````
 Install dependencies:
+```
 npm install
 npm install react-router-dom
-
+```
 Run the development server:
+```
 npm run dev
+```
